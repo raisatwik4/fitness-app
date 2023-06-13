@@ -57,7 +57,7 @@
 
 /* Optional: Styling for scrollbar */
 .scroll-menu-wrapper::-webkit-scrollbar {
-  width: 6px;
+  width: 6px;  display: none;
 }
 
 .scroll-menu-wrapper::-webkit-scrollbar-track {
