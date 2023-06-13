@@ -10,11 +10,11 @@ const Banner = () => {
         <Typography color="Blue" fontWeight="600" fontSize="26px">
             Fitness
         </Typography>
-        <Typography fontWeight="900" sx={{fontSize:{lg:'44px',xs:'40px'}}} mb="23px" mt="30px">
+        <Typography fontWeight="900" sx={{fontSize:{lg:'44px',xs:'40px'},textDecoration:"underline"}} mb="23px" mt="30px">
            Look in the mirror<br/>That’s your competition
         </Typography>
         <Typography fontSize="22px" lineHeight="35px" mb={4}>
-           checkout most effective exercises
+            Most Effective Exercises
         </Typography>
         {/* color kuch bhi ni le skte kewal success,error aur documentation maki dekh lo */}
         <a  href='#exercises'> <Button variant="contained"  color="error" sx={{backgroundColor:'#ff2625',padding:'15px',backgroundColor:'Blue'}}>Explore Exercise</Button></a>
