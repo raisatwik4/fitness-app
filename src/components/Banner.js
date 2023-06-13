@@ -17,7 +17,7 @@ const Banner = () => {
            checkout most effective exercises
         </Typography>
         {/* color kuch bhi ni le skte kewal success,error aur documentation maki dekh lo */}
-        <Button variant="contained"  href="#exercise" color="error" sx={{backgroundColor:'#ff2625',padding:'15px',backgroundColor:'Blue'}}>Explore Exercise</Button>
+        <a  href='#exercises'> <Button variant="contained"  color="error" sx={{backgroundColor:'#ff2625',padding:'15px',backgroundColor:'Blue'}}>Explore Exercise</Button></a>
         {/* <Typography fontWeight={600} color="#ff2625" sx={{opacity:0.1,display:{lg:'block',xs:'none'}}} fontSize="200px">
             Exercise
         </Typography> */}
